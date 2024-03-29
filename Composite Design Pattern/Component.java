@@ -1,0 +1,18 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
+ */
+package com.mycompany.compositedp;
+
+/**
+ *
+ * @author ACER
+ */
+public interface Component {
+    
+    
+    public void addComponent(Component c);
+    public void removeComponent(Component c);
+    public void showPrice();
+     public float getPrice() ;
+}
